@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Authentication App",
+    "slug": "auth-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E3A8A"
+    },
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "This app uses Face ID for secure authentication"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E3A8A"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "USE_FINGERPRINT",
+        "USE_BIOMETRIC"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
